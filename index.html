@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Memory Tile Game</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <h1>🧠 Memory Tile Game</h1>
+  <div class="stats-bar">
+    <p id="score">Score: 0</p>
+    <p id="timer">Time: 0s</p>
+    <p id="flips">Flips: 0</p>
+    <p id="turns">Turns: 0</p>
+    <p id="high-score">High Score: 0</p>
+    <button id="mute-btn">🔊 Mute</button>
+  </div>
+  <div id="controls">
+  <button id="start-btn">▶️ Start Game</button>
+  <button id="stop-btn" class="hidden">⏹ Stop Game</button>
+</div>
+
+  <div id="game-board"></div>
+  <div id="post-game" class="hidden">
+    <h2>🎉 Game Over! 🎉</h2>
+    <p id="final-stats"></p>
+   <button id="restart-btn">🔁 Play Again</button>
+
+  </div>
+
+  <audio id="flip-audio" src="flip.mp3"></audio>
+  <audio id="match-audio" src="match.mp3"></audio>
+  <audio id="bg-music" src="/sfx/music.mp3" loop></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
