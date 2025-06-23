@@ -1,37 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Memory Tile Game</title>
-  <link rel="stylesheet" href="style.css"/>
+  <meta charset="UTF-8">
+  <title>🧠 Memory Match</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>🧠 Memory Tile Game</h1>
-  <div class="stats-bar">
-    <p id="score">Score: 0</p>
-    <p id="timer">Time: 0s</p>
-    <p id="flips">Flips: 0</p>
-    <p id="turns">Turns: 0</p>
-    <p id="high-score">High Score: 0</p>
-    <button id="mute-btn">🔊 Mute</button>
-  </div>
-  <div id="controls">
-  <button id="start-btn">▶️ Start Game</button>
-  <button id="stop-btn" class="hidden">⏹ Stop Game</button>
+  <div id="instruction-box" class="instruction-popup">
+  <button id="close-instruction" class="close-btn">❌</button>
+  <h2>🧠 How to Play</h2>
+  <p>
+    Match all the tile pairs before you run out of turns.<br>
+    Flipping a wrong pair reduces remaining turns. Correct pairs stay open!
+  </p>
 </div>
 
-  <div id="game-board"></div>
-  <div id="post-game" class="hidden">
-    <h2>🎉 Game Over! 🎉</h2>
-    <p id="final-stats"></p>
-   <button id="restart-btn">🔁 Play Again</button>
+  <h1>🧠 Memory Match</h1>
 
+  <div class="stats-bar">
+    <p id="flips">Level: 1</p>
+    <p id="turns">Remaining Turns: 35</p>
   </div>
 
-  <audio id="flip-audio" src="flip.mp3"></audio>
-  <audio id="match-audio" src="match.mp3"></audio>
-  <audio id="bg-music" src="/sfx/music.mp3" loop></audio>
+  <div id="controls">
+    <button id="start-btn">▶️ Start</button>
+    <button id="stop-btn" class="hidden">⏹️ Stop</button>
+    <button id="restart-btn">🔁 Restart</button>
+    <button id="mute-btn">🔊 Mute</button>
+  </div>
+
+  <div id="game-board"></div>
+
+  <div id="post-game" class="hidden">
+    <p id="final-stats"></p>
+  </div>
+
+  <!-- Celebration container will be injected by JS -->
+
+  <!-- Audio files -->
+  <audio id="flip-audio" src="sounds/flip.mp3" preload="auto"></audio>
+  <audio id="match-audio" src="sounds/match.mp3" preload="auto"></audio>
+  <audio id="bg-music" src="sounds/bg.mp3" preload="auto" loop></audio>
 
   <script src="script.js"></script>
 </body>
