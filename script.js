@@ -22,8 +22,7 @@ let maxFlips = 70;
 let retryUsed = false;
 
 const imageUrls = [
-  '/images/01.jpg', '/images/02.jpg', '/images/03.jpg', '/images/04.jpg', '/images/05.jpg',
-  '/images/06.jpg', '/images/07.jpg', '/images/08.jpg', '/images/09.jpg', '/images/10.jpg'
+  '01.jpg', '02.jpg', '03.jpg','04.jpg','05.jpg','06.jpg','07.jpg','08.jpg','09.jpg','10.jpg'
 ];
 
 function shuffle(arr) {
