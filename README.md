@@ -1,13 +1,13 @@
- 🧩 Memory Tile Game
-A browser-based memory game built using vanilla HTML, CSS, and JavaScript. Flip cards, match pairs, and beat the level before you run out of turns. Simple to play, hard to stop.
+# 🧩 Memory Tile Game
 
+A browser-based memory game built using vanilla HTML, CSS, and JavaScript. Flip cards, match pairs, and beat the level before you run out of turns. Simple to play, hard to stop.
 
 
 ---
 
 ## 🎮 Live Demo
 
-👉 **Play it now**: [click here](https://owsam22.github.io/tiles/)
+👉 **Play it now**: [https://your-live-site-link.com](https://owsam22.github.io/tiles/)
 
 ---
 
@@ -22,7 +22,11 @@ A browser-based memory game built using vanilla HTML, CSS, and JavaScript. Flip 
 - ✅ Win/loss screens with retry or next level options
 - ✅ Instruction popup on page load
 
+---
 
+
+
+---
 
 ## 🧠 How to Play
 
@@ -56,19 +60,22 @@ A browser-based memory game built using vanilla HTML, CSS, and JavaScript. Flip 
 ├── flip-audio.mp3
 ├── match-audio.mp3
 ├── bg-music.mp3
+└── \[your screenshots here]
 
-No dependencies. No build tools. Just open and play.
+````
 
 ---
+
+
 
 ## 🔗 Connect With Me
 
 If you liked the game or want to collaborate:
 
 
-* 💼 LinkedIn: [samarpan](https://linkedin.com/in/samarpan22)
-* 💻 GitHub: [samarpan](https://github.com/owsam22)
-* ✉️ Email: [samarpan.works@gmail.com](mailto:samarpan.works@gmail.com)
+* 💼 LinkedIn: [linkedin](https://linkedin.com/in/samarpan22)
+* 💻 GitHub: [github](https://github.com/owsam22)
+* ✉️ Email: [Email](mailto:samarpan.works@gmail.com)
 
 ---
 
@@ -78,7 +85,7 @@ This project is open source under the [MIT License](LICENSE).
 
 ---
 
-Made with ❤️ by [ME](https://github.com/owsam22)
+Made with ❤️ by [samarpan](https://github.com/owsam22)
 
 ```
 
