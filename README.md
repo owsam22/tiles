@@ -7,7 +7,7 @@ A browser-based memory game built using vanilla HTML, CSS, and JavaScript. Flip 
 
 ## 🎮 Live Demo
 
-👉 **Play it now**: [https://your-live-site-link.com](https://owsam22.github.io/tiles/)
+👉 **Play it now**: [click here](https://owsam22.github.io/tiles/)
 
 ---
 
@@ -87,7 +87,4 @@ This project is open source under the [MIT License](LICENSE).
 
 Made with ❤️ by [samarpan](https://github.com/owsam22)
 
-```
-
----
 
