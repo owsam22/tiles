@@ -1,4 +1,23 @@
 
+<!-- 🎮 MEMORY MATCH MADNESS README -->
+
+<!-- Banner Option 1: Glitch Arcade -->
+<p align="center">
+  <img src="https://svg-banners.vercel.app/api?type=glitch&text1=Memory%20Match%20Madness&width=800&height=200" alt="Memory Match Madness Banner"/>
+</p>
+
+<!-- Banner Option 2: Neon Retro -->
+<p align="center">
+  <img src="https://img.shields.io/badge/🃏%20Memory%20Match%20Madness-Arcade%20Edition-ff00ff?style=for-the-badge&logo=apachespark&logoColor=ff00ff&labelColor=000000" alt="Game Banner"/>
+</p>
+
+<!-- Banner Option 3: Pixel Art (8-bit vibe) -->
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Press+Start+2P&size=24&pause=1000&color=00FF00&center=true&vCenter=true&width=800&lines=🕹️+Memory+Match+Madness;Flip+Tiles+⚡+Match+Pairs+⚡+Win!" alt="Pixel Banner"/>
+</p>
+
+---
+
 # 🃏 Memory Match Madness 🎉  
 
 <p align="center">
@@ -14,37 +33,42 @@
 ---
 
 ## 🚀 Play Now  
-🔗 **[Live Demo](https://owsam22.github.io/tiles)**  
+🔗 **[Live Demo](https://your-live-link-here.com)**  
 
 ---
 
 ## 🎮 How to Play
-1. Hit **Start** to begin the game.  
+1. Hit **Start** to begin.  
 2. Flip tiles to reveal images.  
 3. Match all pairs before running out of turns.  
-4. Clear a level → move to the next with fewer turns!  
-5. Lose → retry and beat your high score.  
+4. Win → 🎉 celebration & next level.  
+5. Lose → ❌ retry with fewer turns.  
 
-💡 The game includes:
-- ✅ Flip & Match animations  
-- ✅ Background music & sound effects  
-- ✅ Multi-level progression  
-- ✅ Celebration popups (Win/Loss)  
-- ✅ Mute/Unmute toggle  
+💡 Includes:
+- Flip & Match animations  
+- Background music & sound effects  
+- Multi-level progression  
+- Celebration popups (Win/Loss)  
+- Mute/Unmute toggle  
 
 ---
 
 ## 🛠️ Tech Stack
-- **HTML5**
-- **CSS3**
-- **Vanilla JavaScript (ES6)**
+- **HTML5**  
+- **CSS3**  
+- **Vanilla JavaScript (ES6)**  
 
 ---
 
+## 📸 Screenshots
+| Gameplay | Win Celebration | Loss Screen |
+|----------|----------------|-------------|
+| ![gameplay](https://via.placeholder.com/300x180?text=Gameplay) | ![win](https://via.placeholder.com/300x180?text=Win) | ![loss](https://via.placeholder.com/300x180?text=Lose) |
 
+---
 
 ## 🏆 Features in Action
-- 🎵 Immersive sounds (flip, match, background music)  
+- 🎵 Immersive sounds (flip, match, bg music)  
 - ⏱️ Live timer & turns counter  
 - 🔄 Restart, Stop, and Next Level controls  
 - ✨ Smooth animations with tile flipping  
@@ -75,7 +99,7 @@ open index.html
 
 ## 🎆 Coming Soon
 
-* 🧩 More tile sets & themes
+* 🧩 New tile sets & themes
 * 📱 Mobile-friendly responsive design
 * 🏅 High score leaderboard
 
@@ -88,6 +112,5 @@ open index.html
 </p>
 ```
 
-
-
+---
 
