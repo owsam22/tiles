@@ -1,90 +1,93 @@
-# 🧩 Memory Tile Game
 
-A browser-based memory game built using vanilla HTML, CSS, and JavaScript. Flip cards, match pairs, and beat the level before you run out of turns. Simple to play, hard to stop.
+# 🃏 Memory Match Madness 🎉  
 
+<p align="center">
+  <img src="https://img.shields.io/badge/JavaScript-Game-yellow?style=for-the-badge&logo=javascript" alt="JavaScript"/>
+  <img src="https://img.shields.io/badge/Status-Playable-green?style=for-the-badge" alt="status"/>
+  <img src="https://img.shields.io/badge/Theme-Memory%20Tiles-blueviolet?style=for-the-badge" alt="theme"/>
+</p>
 
----
-
-## 🎮 Live Demo
-
-👉 **Play it now**: [click here](https://owsam22.github.io/tiles/)
-
----
-
-## ✨ Features
-
-- ✅ 20 tiles per level (10 pairs)
-- ✅ Limited turns to increase difficulty
-- ✅ Increasing challenge on each level
-- ✅ Flip animations and match logic
-- ✅ Sound effects (flip, match, background music)
-- ✅ Mute toggle
-- ✅ Win/loss screens with retry or next level options
-- ✅ Instruction popup on page load
+<p align="center">
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" width="300" alt="game demo"/>
+</p>
 
 ---
 
-
+## 🚀 Play Now  
+🔗 **[Live Demo](https://owsam22.github.io/tiles)**  
 
 ---
 
-## 🧠 How to Play
+## 🎮 How to Play
+1. Hit **Start** to begin the game.  
+2. Flip tiles to reveal images.  
+3. Match all pairs before running out of turns.  
+4. Clear a level → move to the next with fewer turns!  
+5. Lose → retry and beat your high score.  
 
-1. Click **Start** to begin a new level.
-2. Tiles briefly reveal their images—memorize them.
-3. Click two tiles to flip them.
-4. Match pairs to keep them revealed.
-5. Clear all 10 pairs before you run out of turns.
-6. Beat the level to unlock the next one (with fewer allowed turns).
+💡 The game includes:
+- ✅ Flip & Match animations  
+- ✅ Background music & sound effects  
+- ✅ Multi-level progression  
+- ✅ Celebration popups (Win/Loss)  
+- ✅ Mute/Unmute toggle  
 
 ---
 
 ## 🛠️ Tech Stack
-
-- HTML5
-- CSS3 (Flexbox + transitions)
-- JavaScript (no frameworks)
+- **HTML5**
+- **CSS3**
+- **Vanilla JavaScript (ES6)**
 
 ---
 
-## 📂 Folder Structure
 
-```
 
-📁 memory-tile-game/
-├── index.html
-├── style.css
-├── script.js
-└── assets/
-├── 01.jpg, 02.jpg, ..., 10.jpg
-├── flip-audio.mp3
-├── match-audio.mp3
-├── bg-music.mp3
-└── \[your screenshots here]
+## 🏆 Features in Action
+- 🎵 Immersive sounds (flip, match, background music)  
+- ⏱️ Live timer & turns counter  
+- 🔄 Restart, Stop, and Next Level controls  
+- ✨ Smooth animations with tile flipping  
 
+---
+
+## 👨‍💻 Developer
+Hi, I’m **Samarpan** 👋  
+
+<p align="center">
+  <a href="https://github.com/owsam22"><img src="https://img.shields.io/badge/GitHub-owsam22-black?style=for-the-badge&logo=github"></a>
+  <a href="https://linkedin.com/in/samarpan22"><img src="https://img.shields.io/badge/LinkedIn-samarpan22-blue?style=for-the-badge&logo=linkedin"></a>
+  <a href="https://owsam22.github.io/portfolio"><img src="https://img.shields.io/badge/Portfolio-Visit-orange?style=for-the-badge&logo=firefox"></a>
+</p>
+
+---
+
+## 🕹️ Installation
+Clone the repo and open `index.html` in your browser:
+
+```bash
+git clone https://github.com/owsam22/memory-match-game.git
+cd memory-match-game
+open index.html
 ````
 
 ---
 
+## 🎆 Coming Soon
 
-
-## 🔗 Connect With Me
-
-If you liked the game or want to collaborate:
-
-
-* 💼 LinkedIn: [linkedin](https://linkedin.com/in/samarpan22)
-* 💻 GitHub: [github](https://github.com/owsam22)
-* ✉️ Email: [Email](mailto:samarpan.works@gmail.com)
+* 🧩 More tile sets & themes
+* 📱 Mobile-friendly responsive design
+* 🏅 High score leaderboard
 
 ---
 
-## 📄 License
+<p align="center">
+  <img src="https://media.giphy.com/media/v1.Y2lkPTc5MGI3NjExZjU0YjU5NmM5OTYzNGU2ZjM0ODkzOGZlN2MwNjEyZWVhMDEwYjRlYyZjdD1n/26xBukhPlkJ5CHWRW/giphy.gif" width="200">
+  <br>
+  <b>Flip. Match. Win. Repeat. 🃏</b>
+</p>
+```
 
-This project is open source under the [MIT License](LICENSE).
 
----
-
-Made with ❤️ by [samarpan](https://github.com/owsam22)
 
 
