@@ -115,7 +115,7 @@ function init() {
     if (!isMuted) bgMusic.play();
     isGameRunning = true;
     updateStats();
-  }, 2000);
+  }, 4000);
 }
 
 function startGame() {
@@ -225,3 +225,4 @@ window.addEventListener("load", () => {
     clearTimeout(timeout);
   });
 });
+
